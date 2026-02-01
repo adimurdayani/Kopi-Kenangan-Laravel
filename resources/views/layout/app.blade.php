@@ -24,7 +24,9 @@
 <body>
     @include('layout.navbar')
 
-    @stack('konten')
+    <main>
+        @stack('konten')
+    </main>
 
     @include('layout.footer')
 
